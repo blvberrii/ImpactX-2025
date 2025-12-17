@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloraFinder - Discover Your Perfect Probiotic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <span class="logo-text">FloraFinder</span>
+        </div>
+        <nav>
+            <a href="{{ url_for('search') }}">Search</a>
+            <a href="{{ url_for('about') }}">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">Discover Your Perfect Probiotic</h1>
+            <p class="hero-subtitle">Find the right probiotic strains tailored to your unique health needs.</p>
+            <a href="{{ url_for('search') }}" class="cta-button">
+                Start Your Search →
+            </a>
+        </section>
+    </main>
+</body>
+</html>
+

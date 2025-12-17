@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Probiotics - FloraFinder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <span class="logo-text">FloraFinder</span>
+        </div>
+        <nav>
+            <a href="{{ url_for('search') }}">Search</a>
+            <a href="{{ url_for('about') }}">About</a>
+        </nav>
+    </header>
+
+    <main class="search-main">
+        <h1 class="page-title">Find Your Probiotics</h1>
+        <p class="page-subtitle">Search by strain name or select symptoms you want to address.</p>
+
+        <div class="search-mode-toggle">
+            <button class="mode-button active" id="strain-mode" onclick="switchMode('strain')">
+                <span class="icon">🔍</span> By Strain Name
+            </button>
+            <button class="mode-button" id="symptom-mode" onclick="switchMode('symptom')">
+                <span class="icon">⏰</span> By Symptom
+            </button>
+        </div>
+
+        <!-- Strain Search Section -->
+        <div id="strain-search-section" class="search-section">
+            <div class="search-input-container">
+                <span class="search-icon">🔍</span>
+                <input 
+                    type="text" 
+                    id="strain-input" 
+                    placeholder="Enter probiotic strain (e.g., L. acidophilus, B. lactis)"
+                    oninput="handleStrainSearch(this.value)"
+                    onfocus="showSuggestions()"
+                >
+                <div id="suggestions" class="suggestions-dropdown"></div>
+            </div>
+            <div id="strain-list"></div>
+            <button class="add-strain-button" onclick="addStrainField()">
+                + Add another strain
+            </button>
+            <button class="find-button" onclick="searchByStrains()">Find Benefits →</button>
+        </div>
+
+        <!-- Symptom Search Section -->
+        <div id="symptom-search-section" class="search-section" style="display: none;">
+            <p class="symptom-instruction">Select the symptoms you'd like to address:</p>
+            <div class="symptoms-grid" id="symptoms-grid"></div>
+            <button class="find-button" onclick="searchBySymptoms()">Find Benefits →</button>
+        </div>
+
+        <div class="disclaimer">
+            <span class="info-icon">ℹ️</span>
+            <p>This information is for educational purposes only. Please consult with a healthcare provider before starting any probiotic supplement.</p>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

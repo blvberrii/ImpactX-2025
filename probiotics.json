@@ -1,0 +1,181 @@
+[
+  {
+    "id": "l-acidophilus",
+    "name": "L. acidophilus",
+    "full_name": "Lactobacillus acidophilus",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Lactose intolerance",
+      "Vaginal health",
+      "High cholesterol",
+      "Digestive issues",
+      "Bacterial vaginosis"
+    ],
+    "benefits": [
+      "Helps digest lactose in dairy products",
+      "Supports vaginal health and prevents infections",
+      "May reduce total and LDL cholesterol",
+      "Promotes general digestive health",
+      "Decreases risk of colon cancer (lab studies)"
+    ]
+  },
+  {
+    "id": "l-rhamnosus-gg",
+    "name": "L. rhamnosus GG (LGG)",
+    "full_name": "Lactobacillus rhamnosus GG",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Diarrhea",
+      "IBS",
+      "Digestive issues",
+      "Allergies",
+      "Eczema"
+    ],
+    "benefits": [
+      "Prevents and treats diarrhea, especially in children",
+      "Reduces symptoms of irritable bowel syndrome (IBS)",
+      "Helps with allergic reactions and eczema",
+      "Supports immune system function"
+    ]
+  },
+  {
+    "id": "l-plantarum",
+    "name": "L. plantarum",
+    "full_name": "Lactobacillus plantarum",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "IBS",
+      "Constipation",
+      "Gas",
+      "Bloating",
+      "Digestive issues"
+    ],
+    "benefits": [
+      "Relieves symptoms of irritable bowel syndrome",
+      "Reduces gas and bloating",
+      "Improves constipation",
+      "Supports overall gut health"
+    ]
+  },
+  {
+    "id": "l-reuteri",
+    "name": "L. reuteri",
+    "full_name": "Lactobacillus reuteri",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Infant colic",
+      "Oral health issues",
+      "Digestive issues",
+      "Eczema"
+    ],
+    "benefits": [
+      "Reduces crying time in colicky infants",
+      "Improves oral health and reduces cavities",
+      "Supports digestive health",
+      "May help with eczema in children"
+    ]
+  },
+  {
+    "id": "l-gasseri",
+    "name": "L. gasseri",
+    "full_name": "Lactobacillus gasseri",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Weight management"
+    ],
+    "benefits": [
+      "May help with weight management and reduce belly fat",
+      "Supports metabolic health"
+    ]
+  },
+  {
+    "id": "b-lactis",
+    "name": "B. lactis",
+    "full_name": "Bifidobacterium lactis",
+    "genus": "Bifidobacterium",
+    "helps_with": [
+      "Digestive issues",
+      "Immune support",
+      "Constipation",
+      "IBS"
+    ],
+    "benefits": [
+      "Improves digestive function",
+      "Strengthens immune system",
+      "Helps with constipation",
+      "Reduces IBS symptoms"
+    ]
+  },
+  {
+    "id": "b-bifidum",
+    "name": "B. bifidum",
+    "full_name": "Bifidobacterium bifidum",
+    "genus": "Bifidobacterium",
+    "helps_with": [
+      "Digestive issues",
+      "Constipation",
+      "Diarrhea",
+      "Immune support"
+    ],
+    "benefits": [
+      "Supports healthy digestion",
+      "Helps with constipation and diarrhea",
+      "Boosts immune system",
+      "Maintains gut barrier function"
+    ]
+  },
+  {
+    "id": "l-casei",
+    "name": "L. casei",
+    "full_name": "Lactobacillus casei",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Diarrhea",
+      "Digestive issues",
+      "Immune support",
+      "Traveler's diarrhea"
+    ],
+    "benefits": [
+      "Prevents and treats diarrhea",
+      "Supports digestive health",
+      "Boosts immune function",
+      "Helps prevent traveler's diarrhea"
+    ]
+  },
+  {
+    "id": "b-longum",
+    "name": "B. longum",
+    "full_name": "Bifidobacterium longum",
+    "genus": "Bifidobacterium",
+    "helps_with": [
+      "Anxiety",
+      "Stress",
+      "Digestive issues",
+      "Immune support"
+    ],
+    "benefits": [
+      "May reduce anxiety and stress",
+      "Supports digestive health",
+      "Strengthens immune system",
+      "Improves mood and mental health"
+    ]
+  },
+  {
+    "id": "l-fermentum",
+    "name": "L. fermentum",
+    "full_name": "Lactobacillus fermentum",
+    "genus": "Lactobacillus",
+    "helps_with": [
+      "Respiratory infections",
+      "Cold and flu",
+      "Immune support"
+    ],
+    "benefits": [
+      "Reduces risk of respiratory infections",
+      "Helps prevent cold and flu",
+      "Strengthens immune system"
+    ]
+  }
+]
+
+
