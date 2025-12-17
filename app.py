@@ -49,7 +49,7 @@ def search_by_strain():
         strain_name = probiotic.get('name', '').lower()
         genus = probiotic.get('genus', '').lower()
         
-        # check
+        # check if query matches strain name or genus
         if query in strain_name or query in genus:
             results.append(probiotic)
     
@@ -68,7 +68,7 @@ def search_by_symptom():
     
     for probiotic in data:
         helps_with = [item.lower() for item in probiotic.get('helps_with', [])]
-        # checking :D
+        # check if any of the selected symptoms match
         for symptom in symptoms:
             symptom_lower = symptom.lower()
             if any(symptom_lower in item for item in helps_with):
@@ -77,7 +77,7 @@ def search_by_symptom():
     
     return jsonify(results)
 
-# opt 2 search by strain
+# opt 2 search by strain 
 @app.route('/api/probiotic/<strain_id>')
 def get_probiotic(strain_id):
     data = load_probiotic_data()
@@ -88,4 +88,5 @@ def get_probiotic(strain_id):
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+
 
