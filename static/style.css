@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* base reset stuff */
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +10,10 @@ body {
     color: #2d2d2d;
     background-color: #ffffff;
     line-height: 1.6;
+    /* fix line length later */
 }
 
-/* Header */
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -71,13 +72,13 @@ nav a:hover {
     color: #9b59b6;
 }
 
-/* Hero Section */
+/* hero section */
 .hero {
     background: linear-gradient(135deg, #ffeef5 0%, #f3e5f5 100%);
     padding: 100px 40px;
     text-align: center;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; /*hide the glow blob thingy */
 }
 
 .hero::before {
@@ -141,7 +142,7 @@ nav a:hover {
     box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
-/* Info Section */
+/* info section */
 .info-section {
     padding: 80px 40px;
     text-align: center;
@@ -161,7 +162,7 @@ nav a:hover {
     color: #555;
 }
 
-/* Search Page */
+/* search Page */
 .search-main {
     max-width: 900px;
     margin: 0 auto;
@@ -283,6 +284,7 @@ nav a:hover {
     font-size: 20px;
 }
 
+/* dropdown suggestions */
 .suggestions-dropdown {
     position: absolute;
     top: 100%;
@@ -431,7 +433,7 @@ nav a:hover {
     box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3);
 }
 
-/* Symptom Search */
+/* symptom search */
 .symptom-instruction {
     font-size: 18px;
     color: #555;
@@ -489,7 +491,7 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* Results Page */
+/* results page */
 .results-main {
     max-width: 900px;
     margin: 0 auto;
@@ -669,7 +671,7 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* Responsive Design */
+/* responsive design */
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
@@ -707,3 +709,4 @@ nav a:hover {
         gap: 20px;
     }
 }
+
