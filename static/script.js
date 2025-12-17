@@ -9,9 +9,11 @@ const SYMPTOMS = [
 "Stress", "Traveler's diarrhea", "Ulcerative colitis", "Urinary tract infection",
 "Vaginal health", "Vaginal yeast", "Weight management"
 ];
+
 let selectedSymptoms = [];          // user-chosen symptoms
 let selectedStrains = [];           // strain inputs (first one is special)
 let allProbiotics = [];             // cached api data, used in a few places
+
 // kick things off once the DOM is ready
 document.addEventListener('DOMContentLoaded', function () {
 initializePage();
@@ -523,3 +525,4 @@ results.forEach(probiotic => {
 });
 
 }
+
