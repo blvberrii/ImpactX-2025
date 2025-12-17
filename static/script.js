@@ -520,7 +520,7 @@ function displayResults(results) {
         genusTag.className = 'genus-tag';
         genusTag.textContent = probiotic.genus || '';
         
-        // Helps With section
+        // helps With section
         const helpsLabel = document.createElement('div');
         helpsLabel.className = 'section-label';
         helpsLabel.textContent = 'Helps With:';

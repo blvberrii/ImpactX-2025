@@ -173,21 +173,21 @@ nav a:hover {
 
 .search-main::before {
     content: '';
-    position: absolute;
-    top: -200px;
-    left: -200px;
-    width: 400px;
-    height: 400px;
+    position: top left;
+    top: -300px;
+    left: -300px;
+    width: 600px;
+    height: 600px;
     background: radial-gradient(circle, rgba(233, 30, 99, 0.08) 0%, transparent 70%);
     border-radius: 50%;
-    filter: blur(80px);
+    filter: blur(120px);
     z-index: 0;
     pointer-events: none;
 }
 
 .search-main::after {
     content: '';
-    position: absolute;
+    position: top left;
     bottom: -200px;
     right: -200px;
     width: 400px;
